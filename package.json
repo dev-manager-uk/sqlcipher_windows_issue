@@ -1,0 +1,14 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
+  },
+  "dependencies": {
+    "@journeyapps/sqlcipher": "^5.0.0",
+    "electron": "^10.1.4",
+    "electron-rebuild": "^2.3.2"
+  }
+}
