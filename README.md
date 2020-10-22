@@ -1,5 +1,5 @@
 1. yarn install
-2. try npm start (will get errors on rebuild step, can fix by renaming below)
+2. yarn run start (will get errors on rebuild step, can fix by renaming below)
 3. rename node_modules/@journeyapps/sqlcipher/lib/binding/napi-v6-win32-x64 TO node_modules/@journeyapps/sqlcipher/lib/binding/napi-v3-win32-x64
 4. uncomment ln33 in main.js, it will throw error below
 
