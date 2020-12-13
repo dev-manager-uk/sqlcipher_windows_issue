@@ -7,7 +7,7 @@
     "postinstall": "electron-rebuild"
   },
   "dependencies": {
-    "@journeyapps/sqlcipher": "^5.0.0",
+    "@journeyapps/sqlcipher": "https://github.com/dev-manager-uk/node-sqlcipher",
     "electron": "^10.1.4",
     "electron-rebuild": "^2.3.2"
   }
